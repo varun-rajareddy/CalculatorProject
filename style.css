@@ -1,0 +1,52 @@
+*{
+    font-size: 25px;
+}
+
+.cal-container {
+    /* border: 1px solid black; */
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+.output{
+    background-color: black;
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+p{
+margin-top: 5%;
+color: rgb(238, 234, 228);
+}
+
+.layer-2{
+display: flex;
+flex-direction: row;
+}
+
+.layer-2 button:last-child{
+    background-color:orange ;
+    color: white;
+}
+
+.button-50{
+    background-color: rgb(231, 230, 230);
+    flex-basis: 50%; 
+}
+
+.border{
+    border: 1px solid black;
+    height: 65px;
+}
+
+.button-25{
+    background-color: rgb(231, 230, 230);
+    flex-basis: 25%;
+}
+
+.button-75{
+    background-color: rgb(231, 230, 230);
+    flex-basis: 75%;
+}
