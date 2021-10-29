@@ -23,11 +23,6 @@ body {
     padding: 20px 5px;
 }
 
-p{
-margin-top: 5%;
-color: rgb(238, 234, 228);
-}
-
 .calc-row{
 display: flex;
 flex-direction: row;
